@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  box-sizing: border-box;
+  width: 1160px;
+}
+a {
+  font-family: "Raleway";
+}
+
+p {
+  font-family: "Raleway";
+}
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+h2 {
+  background-color: #dbc2a4;
+}
+.Partie4 h2:hover {
+  display: flex;
+  color: black;
+  background-color: #782221;
+  width: 20px;
+}
+.Partie1 {
+  display: flex;
+  background-color: #782221;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Partie1 img {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border-radius: 70%;
+  box-shadow: 0px 1px 40px;
+}
+img:hover {
+  cursor: zoom-in;
+}
+
+.Partie2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #2c1d27;
+  justify-content: space-around;
+  height: 40px;
+}
+.Centre {
+  display: flex;
+}
+
+.Partie3 {
+  display: flex;
+  background-color: #782221;
+  flex-direction: column;
+  width: 30%;
+  padding-right: 20px;
+  text-align: left;
+}
+.Partie4 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 70%;
+  height: 480px;
+}
+.Partie5 img {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border-radius: 70%;
+}
+.Partie5 {
+  display: flex;
+  flex-direction: row;
+  background-color: #782221;
+  justify-content: space-around;
+  align-items: end;
+}
