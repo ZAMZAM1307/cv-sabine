@@ -76,6 +76,7 @@ h2 {
   width: 40px;
   height: 40px;
   border-radius: 70%;
+  transform: translateX(60px);
 }
 .Partie5 {
   display: flex;
