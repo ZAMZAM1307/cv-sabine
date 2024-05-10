@@ -21,11 +21,10 @@ h2 {
 .Partie4 h2:hover {
   display: flex;
   flex-direction: row;
-  
+
   color: black;
   background-color: #782221;
   width: 20px;
-  
 }
 .Partie1 {
   display: flex;
@@ -70,6 +69,7 @@ h2 {
   background-color: white;
   width: 70%;
   height: 480px;
+  margin-left: 10px;
 }
 .Partie5 img {
   display: flex;
@@ -83,6 +83,4 @@ h2 {
   background-color: #782221;
   justify-content: space-around;
   align-items: end;
-
-
 }
