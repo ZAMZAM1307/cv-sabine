@@ -17,12 +17,14 @@ display: flex;
 border-radius: 70px;
 width: 70px;
 height: 70px;
+cursor: zoom-in;
 }
 
 .Partie2{
   display: flex;
   background-color:#2c1d27;
   justify-content: space-around;
+  text-decoration: none;
 }
 
 .Centre{
@@ -31,10 +33,11 @@ height: 70px;
   justify-content:initial;
 }
 
-.Center1{
+.centres1{
   display: flex;
   flex-direction: column;
   width: 100%;
+  flex-grow: 1;
 }
 .Partie3{
   display: flex;
@@ -46,6 +49,7 @@ height: 70px;
   display: flex;
   flex-direction: column;
   background-color:white;
+  padding-left: 20px;
 }
 
 .Partie5{
@@ -60,10 +64,17 @@ height: 70px;
   display:flex ;
   width: 70px;
   height: 70px;
+  cursor: pointer;
+}
+.Partie5 img:hover{
+  opacity: 0.5;
 }
 
 a{
   font-family: "Raleway";
+}
+a:hover{
+  text-decoration: underline;
 }
 
 p{
