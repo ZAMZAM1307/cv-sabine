@@ -18,6 +18,7 @@ border-radius: 70px;
 width: 70px;
 height: 70px;
 cursor: zoom-in;
+box-shadow: 0px 0px 20px black;
 }
 
 .Partie2{
@@ -50,6 +51,13 @@ cursor: zoom-in;
   flex-direction: column;
   background-color:white;
   padding-left: 20px;
+  border-right: #2c1d27 solid;
+}
+.Partie4 h2:hover{
+  display: flex;
+  background-color: #782221;
+  width: 50%;
+  padding-right: 10px;
 }
 
 .Partie5{
@@ -58,6 +66,7 @@ cursor: zoom-in;
   align-items: center;
   justify-content: space-around;
   background-color:#782221;
+  
 }
 
 .Partie5 img{
@@ -85,7 +94,7 @@ h1{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: aquamarine;
+  background-color: #782221;
 }
 
 h2{
