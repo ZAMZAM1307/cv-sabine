@@ -24,6 +24,7 @@ cursor: zoom-in;
   display: flex;
   background-color:#2c1d27;
   justify-content: space-around;
+  text-decoration: none;
 }
 
 .Centre{
@@ -65,9 +66,15 @@ cursor: zoom-in;
   height: 70px;
   cursor: pointer;
 }
+.Partie5 img:hover{
+  opacity: 0.5;
+}
 
 a{
   font-family: "Raleway";
+}
+a:hover{
+  text-decoration: underline;
 }
 
 p{
